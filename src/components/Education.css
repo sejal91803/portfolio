@@ -1,0 +1,49 @@
+/* Main Education Section */
+.education-section {
+    padding: 2rem;
+    color: #C4C4C4; /* Light gray text color */
+    background-color: #0D0E12; /* Dark background */
+    text-align: center;
+}
+
+.education-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.education-content {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 2rem 0;
+}
+
+.education-item {
+    background-color: #111827; /* Dark card background */
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #00c2ff; /* Neon blue border */
+    text-align: center;
+}
+
+.education-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 194, 255, 0.3);
+}
+
+.education-item h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.education-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #C4C4C4; /* Light gray text color */
+}
