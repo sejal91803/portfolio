@@ -9,26 +9,22 @@ const certifications = [
   {
     id: 1,
     name: "Naukri Campus Young Turks",
-    image: "path/to/your/image2.jpg",
-    link: "https://example.com/certification-link",
+    link: "https://drive.google.com/file/d/1OrhP7qtSIO3FMWGpQmJw4CipYiJJ4JTy/view?usp=sharing",
   },
   {
     id: 2,
     name: "UI/UX for Beginners",
-    image: "path/to/your/image1.jpg", // Replace with actual image paths or imports
-    link: "https://pdf.ac/12jRnU",
+    link: "https://drive.google.com/file/d/1yaqcMutTO4tFu3CiWFqzaibyeVu5vwKo/view?usp=sharing",
   },
   {
     id: 3,
     name: "AI Tools",
-    image: "path/to/your/image2.jpg",
-    link: "https://example.com/certification-link",
+    link: "https://drive.google.com/file/d/1aTV8DBz4bQRIwNwdVma1nJn0opI168GB/view?usp=sharing",
   },
   {
     id: 4,
-    name: " Introduction to C plus plus",
-    image: "path/to/your/image2.jpg",
-    link: "https://example.com/certification-link",
+    name: "Introduction to C plus plus",
+    link: "https://drive.google.com/file/d/1GvMgu65P8k8vBllLu6o0pkaz2gjuRFeF/view?usp=sharing",
   },
   
   // Add more certifications as needed
@@ -54,22 +50,16 @@ const Certifications = () => {
           <Tilt key={cert.id} className='bg-tertiary p-5 rounded-2xl'>
             {/* Title above the image */}
             <h3 className='text-white font-bold text-[20px] mb-3'>{cert.name}</h3>
-            
-            <div className='relative w-full h-[230px]'>
-              <img
-                src={cert.image}
-                alt={`${cert.name} image`}
-                className='w-full h-full object-cover rounded-2xl'
-              />
-            </div>
 
+            {/* Removed image section */}
+            
             {/* View button below the image */}
             <div className='mt-4 flex justify-center'>
               <a
                 href={cert.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className='bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full transition duration-200'
+                className='bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl transition duration-200'
               >
                 View Certificate
               </a>

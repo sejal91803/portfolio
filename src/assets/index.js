@@ -31,6 +31,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";  
 import tripguide from "./tripguide.png";  
 
+import naukri from "./naukri.png";
 // Component Exports  
 // src/assets/index.js
 export { default as About } from '../components/About';
