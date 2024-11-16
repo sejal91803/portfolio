@@ -345,7 +345,7 @@ const projects = [
     source_code_link: "https://github.com/sejal91803/Airline-Management-System",
   },
   {
-    name: "Tourism and Travel Booking System",
+    name: "Travel and Tourism Management System",
     description:
       "The Online Tourism Management System is a desktop application that helps tourists book hotels, packages, and explore sites, simplifying and streamlining their travel operations.",
     tags: [
@@ -363,7 +363,7 @@ const projects = [
       },
     ],
     //image: tripguide,
-    source_code_link: "",
+    source_code_link: "https://github.com/sejal91803/-Travel-and-Tourism-Management-System",
   },
   /*{
     name: "PayKaro",
@@ -414,31 +414,6 @@ const projects = [
     ],
     image: agro,
     source_code_link: "https://agro-tech-ai.vercel.app/",
-  },
-  {
-    name: "Comparative Analysis Of Automatic Detection Of Blood Cancer From Microscopic Images",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "Image Processing",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "OpenCV",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Python",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Machin Learning Algotithms (CNN, KNN, etc)",
-        color: "red-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "",
   },
 ];
 
