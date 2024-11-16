@@ -32,10 +32,10 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <div id="certificates"> {/* Added id for linking */}
+    <div id="certificates" className="pr-40"> {/* Added id for linking */}
       <motion.div
         variants={textVariant()}
-        className="mt-12 ml-48"
+        className="mt-12 ml-48 mr-48"
       >
         <p className={styles.sectionSubText}>My Achievements</p>
         <h2 className={styles.sectionHeadText}>Certifications</h2>
@@ -50,8 +50,6 @@ const Certifications = () => {
           <Tilt key={cert.id} className='bg-tertiary p-5 rounded-2xl'>
             {/* Title above the image */}
             <h3 className='text-white font-bold text-[20px] mb-3'>{cert.name}</h3>
-
-            {/* Removed image section */}
             
             {/* View button below the image */}
             <div className='mt-4 flex justify-center'>

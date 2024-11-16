@@ -24,6 +24,12 @@ import {
   tripguide,
  
   threejs,
+  airline,
+  agro,
+  ecoconnect,
+  cake,
+  supermarket,
+  blinkit,
   
 } from "../assets";
 
@@ -226,7 +232,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/sejal91803",
+    source_code_link: "https://www.figma.com/proto/UkoTSTu3D45gbOVPYbJT0u/Travel-app?node-id=1-5&node-type=frame&t=FGNJakKu3gXWVrNt-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
   },
   {
     name: "CakeCraft Bakery",
@@ -250,7 +256,7 @@ const projects = [
         color: "red-text-gradient",
       },
     ],
-    //image: tripguide,
+    image: cake,
     source_code_link: "https://www.figma.com/proto/3AdRiW1TSmGOOHxYSLOigq/CakeCraft?node-id=10-6535&node-type=canvas&t=PLAZ2JoLpe8Scy7M-1&scaling=min-zoom&content-scaling=fixed&page-id=10%3A38",
   },
   {
@@ -275,8 +281,8 @@ const projects = [
         color: "red-text-gradient",
       },
     ],
-    //image: tripguide,
-    source_code_link: "https://www.figma.com/proto/3AdRiW1TSmGOOHxYSLOigq/CakeCraft?node-id=10-6535&node-type=canvas&t=PLAZ2JoLpe8Scy7M-1&scaling=min-zoom&content-scaling=fixed&page-id=10%3A38",
+    image: ecoconnect,
+    source_code_link: "https://www.figma.com/proto/FC2CCEFXGhSrejA7FCSkPq/ZooNet-(Social-Media)?node-id=0-1608&node-type=frame&t=6rmkThGXENEhFeEg-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1",
   },
   {
     name: "BlinkIt Analysis",
@@ -288,8 +294,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    //image: jobit,
-    source_code_link: "https://agro-tech-ai.vercel.app/",
+    image: blinkit,
+    source_code_link: "https://app.powerbi.com/view?r=eyJrIjoiYjYzYTI4N2MtOGI3Ny00MWU1LTgyNjYtZGNkYmM3ZDI3YzkzIiwidCI6IjQ2ZjRlNDQzLTc2MTctNGJiNi05NDc1LWYyNDAwOGI1NzI2ZSJ9",
   },
   {
     name: "Supermarket Analysis",
@@ -301,7 +307,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    //image: tripguide,
+    image: supermarket,
     source_code_link: "https://app.powerbi.com/view?r=eyJrIjoiMTQ0ODFlODUtYjI1MS00MjIyLTllOWQtNGM0NGZmZDFkYjI5IiwidCI6ImUxYmMxZmI3LTg2YzUtNDczYi04ZGUzLWIxOTAyY2U3YTJmYyJ9",
   },
   {
@@ -315,7 +321,7 @@ const projects = [
       },
     ],
     //image: tripguide,
-    source_code_link: "https://app.powerbi.com/view?r=eyJrIjoiMTQ0ODFlODUtYjI1MS00MjIyLTllOWQtNGM0NGZmZDFkYjI5IiwidCI6ImUxYmMxZmI3LTg2YzUtNDczYi04ZGUzLWIxOTAyY2U3YTJmYyJ9",
+    source_code_link: "https://app.powerbi.com/view?r=eyJrIjoiZThkMGRhOTItMDQ4Ni00NTc0LWIyMmQtYzM3NWUyM2FmM2Y5IiwidCI6ImUxYmMxZmI3LTg2YzUtNDczYi04ZGUzLWIxOTAyY2U3YTJmYyJ9",
   },
   {
     name: "Airline Management System",
@@ -335,8 +341,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    //image: jobit,
-    source_code_link: "https://github.com/sejal91803",
+    image: airline,
+    source_code_link: "https://github.com/sejal91803/Airline-Management-System",
   },
   {
     name: "Tourism and Travel Booking System",
@@ -357,9 +363,9 @@ const projects = [
       },
     ],
     //image: tripguide,
-    source_code_link: "https://www.figma.com/proto/3AdRiW1TSmGOOHxYSLOigq/CakeCraft?node-id=10-6535&node-type=canvas&t=PLAZ2JoLpe8Scy7M-1&scaling=min-zoom&content-scaling=fixed&page-id=10%3A38",
+    source_code_link: "",
   },
-  {
+  /*{
     name: "PayKaro",
     description:
       "PayKaro is a web application that enables users to make payments, analyze spending based on personalized categories, and manage their financial plans with the help of a built-in generative AI bot.",
@@ -383,7 +389,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/sejal91803",
-  },
+  },*/
   {
     name: "AgroFarm",
     description:
@@ -406,7 +412,7 @@ const projects = [
         color: "red-text-gradient",
       },
     ],
-    //image: jobit,
+    image: agro,
     source_code_link: "https://agro-tech-ai.vercel.app/",
   },
   {
@@ -432,7 +438,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/sejal91803",
+    source_code_link: "",
   },
 ];
 

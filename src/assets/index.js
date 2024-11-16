@@ -30,8 +30,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";  
 import jobit from "./jobit.png";  
 import tripguide from "./tripguide.png";  
+import airline from "./airline.png";
+import agro from "./agro.png";
+import ecoconnect from "./ecoconnect.png";
+import cake from "./cake.png";
+import supermarket from "./supermarket.png";
+import blinkit from "./blinkit.png";
 
-import naukri from "./naukri.png";
 // Component Exports  
 // src/assets/index.js
 export { default as About } from '../components/About';
@@ -69,4 +74,10 @@ export {
   carrent,  
   jobit,  
   tripguide,  
+  airline,
+  agro,
+  ecoconnect,
+  cake,
+  supermarket,
+  blinkit,
 };
