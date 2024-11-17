@@ -1,5 +1,5 @@
 import React from 'react';
-import './education.css';
+import './Education.css';
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
