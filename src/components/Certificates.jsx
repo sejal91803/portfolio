@@ -37,7 +37,6 @@ const Certifications = () => {
         variants={textVariant()}
         className="mt-12 ml-48 mr-48"
       >
-        <p className={styles.sectionSubText}>My Achievements</p>
         <h2 className={styles.sectionHeadText}>Certifications</h2>
       </motion.div>
 

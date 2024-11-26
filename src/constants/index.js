@@ -293,9 +293,17 @@ const projects = [
         name: "PowerBi",
         color: "blue-text-gradient",
       },
+      {
+        name: "Excel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "pink-text-gradient",
+      },
     ],
     image: blinkit,
-    source_code_link: "https://app.powerbi.com/view?r=eyJrIjoiYjYzYTI4N2MtOGI3Ny00MWU1LTgyNjYtZGNkYmM3ZDI3YzkzIiwidCI6IjQ2ZjRlNDQzLTc2MTctNGJiNi05NDc1LWYyNDAwOGI1NzI2ZSJ9",
+    source_code_link: "https://app.powerbi.com/view?r=eyJrIjoiMzRmMGQ0YjktNjVlNy00MjlhLTgyYTItNzFiODYwNGU1MWMzIiwidCI6ImUxYmMxZmI3LTg2YzUtNDczYi04ZGUzLWIxOTAyY2U3YTJmYyJ9",
   },
   {
     name: "Supermarket Analysis",
@@ -318,6 +326,14 @@ const projects = [
       {
         name: "PowerBi",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Excel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "pink-text-gradient",
       },
     ],
     //image: tripguide,
